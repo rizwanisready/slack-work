@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600;1,700&display=swap');
+/* footer first---body last*/
 *{
     margin: 0;
     padding: 0;
@@ -7,12 +9,12 @@
     font-family: "Poppins" , sans-serif;
   }
   body{
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     background: #EEECEB;
   }
   footer{
-    position: fixed;
+    position: relative;
     background: #140B5C;
     width: 100%;
     bottom: 0;
@@ -248,7 +250,6 @@
   }
   
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600;1,700&display=swap');
 
 *{
     margin: 0;
@@ -565,8 +566,8 @@ h1,h2,h3,h4{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    margin-top: 10rem;
-    margin-bottom: 40rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
