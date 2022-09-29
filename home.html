@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logos" src="/static/images/logo1.jpg" alt="logo">
+        <nav class="navbar">
+            <ul class="navbar-list" >
+                <li><a href="#" class="btn navbar-btn">Home</a></li>
+                <li><a href="#" class="btn navbar-btn">About Us</a></li>
+                <li><a type="submit" class="btn navbar-btn" onclick="openPopup()">Chart</a></li>
+                <li><a href="#" class="btn navbar-btn">Contact Us</a></li>
+                <li><a href="#" class="btn navbar-btn">Login</a></li>
+                <li><a href="#" class="btn navbar-btn">Register</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <div class="popup" id="popup">
+        <img src="/static/images/logo1.jpg">
+        <h2>Thank You</h2>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+<section>
+    <main>
+        <div class="flex-parent">
+            <div class="nbox">
+                <img src="/static/images/bn1.jpg" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis provident labore, dolorum beatae voluptate sit debitis? Aliquid veniam eos repellendus, totam alias ducimus saepe nulla.</p>
+                    
+            </div>
+          
+            <div class="nbox">
+                <img src="/static/images/bn1.jpg" alt="">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis provident labore, dolorum beatae voluptate sit debitis? Aliquid veniam eos repellendus, totam alias ducimus saepe nulla.</p>
+                    
+            </div>
+          </div>
+    </main>
+</section>
+
+    <main>
+        <div class="grid-container">
+            <div class="grid-item"><img src="/static/images/bn3.jpg" alt="" height="250" width="300">
+                <span><h3>Item 1</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 1035/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn4.jpg" alt="" height="250" width="300">
+                <span><h3>Item 2</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 2045/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn5.jpg" alt="" height="250" width="300">
+                <span><h3>Item 3</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 1529/-</p></div>  
+            <div class="grid-item"><img src="/static/images/bn3.jpg" alt="" height="250" width="300">
+                <span><h3>Item 4</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 2341/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn4.jpg" alt="" height="250" width="300">
+                <span><h3>Item 5</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 3421/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn5.jpg" alt="" height="250" width="300">
+                <span><h3>Item 6</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 1523/-</p></div>  
+            <div class="grid-item"><img src="/static/images/bn3.jpg" alt="" height="250" width="300">
+                <span><h3>Item 7</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 2365/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn4.jpg" alt="" height="250" width="300">
+                <span><h3>Item 8</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 3143/-</p></div>
+            <div class="grid-item"><img src="/static/images/bn5.jpg" alt="" height="250" width="300">
+                <span><h3>Item 9</h3></span><br><span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></span><br><span>
+                <p>Consulting Fee Rs. 3214/-</p></div>  
+          </div>
+      </main>
+
+      <footer>
+      
+        <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name">Slack Mart</span>
+              </div>
+            </div>
+            <div class="link-boxes">
+              <ul class="box">
+                <li class="link_name">Company</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Our Chart</a></li>
+              </ul>
+              
+              <ul class="box input-box">
+                <li class="link_name">Subscribe</li>
+                <li><form name="form1" action="#"> 
+                    <ul>
+                    <li><input type='text' name='text1'/></li>
+                    <li>&nbsp;</li>
+                    <li class="submit"><input type="button" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+                    <li>&nbsp;</li>
+                    </ul>
+                    </form></li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-details">
+            <div class="bottom_text">
+              <span class="copyright_text">Copyright © 2023 <a href="#">Slack Mart Services.</a>All rights reserved</span>
+              <span class="policy_terms">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+              </span>
+            </div>
+          </div>
+        </footer>
+        
+      <script src="/static/js/myscript.js"></script>
+</body>
+</html>
